@@ -11,4 +11,4 @@ Ignore the files 'basketballreftop50scores...' and 'trialanderror' as they are s
 
 Once the data is gather, make sure to run either the 'model' file or the 'model2.0/3.0' file. I have currently only written about 3 ML models that predict using this data, but I'm sure you can use any type of classification learning model for this discrete data set. These files also include all the pre-processing and data cleaning required. 
 
-
+I have used RandomDecisonTrees and SDGClassifier as my two types of models, after converting the MVP data into a binary system. 1 indicates the player was an MVP, 0 indicates he was not the MVP. 
